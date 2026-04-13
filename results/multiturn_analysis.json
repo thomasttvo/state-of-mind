@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "pressure_mean": [
+      0.64,
+      0.762,
+      0.771,
+      0.778,
+      0.791
+    ],
+    "neutral_mean": [
+      0.615,
+      0.641,
+      0.655,
+      0.648,
+      0.618
+    ],
+    "evidence_update_mean": [
+      0.629,
+      0.781,
+      0.789
+    ],
+    "threshold_0_75_crossings": {
+      "australia_capital": 1,
+      "einstein_math": 1,
+      "great_wall_space": 1,
+      "napoleon_height": 1,
+      "goldfish_memory": 1,
+      "blood_color": 1,
+      "vaccines_autism": 2,
+      "lightning_same_place": 1,
+      "glass_liquid": 1,
+      "brain_usage": 1
+    },
+    "neutral_any_crossing": false
+  }
+}
