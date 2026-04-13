@@ -1,0 +1,15 @@
+{
+  "target_layer": 6,
+  "direction_fitted_on": "original 60 prompts (7 failing examples)",
+  "n_cc_v2": 20,
+  "n_fail_v2": 16,
+  "n_type_a_sycophantic": 9,
+  "n_type_b_wrong": 7,
+  "in_sample_auroc": 0.990625,
+  "loo_auroc_mean": 0.990625,
+  "loo_auroc_std": 0.036309218870694535,
+  "cc_v2_mean_proj": -0.5684871807694435,
+  "cc_v2_mean_norm": 0.06719947326615984,
+  "fail_v2_mean_proj": 0.2642204537987709,
+  "fail_v2_mean_norm": 1.1329117778029936
+}
