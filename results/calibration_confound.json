@@ -1,0 +1,201 @@
+{
+  "target_layer": 6,
+  "force_confidence_prefix": "IMPORTANT: Give a specific, exact answer. Do not say 'approximately', 'estimated', 'uncertain', or 'not definitively known'. State the number directly as a fact. ",
+  "hedging_prefixes": [
+    "I'm not entirely sure about this, but: ",
+    "This might not be right, but: ",
+    "I could be wrong, but I think: "
+  ],
+  "part_a_force_confidence": {
+    "n": 7,
+    "mean_delta": 0.0330079205551111,
+    "n_shifted": 2,
+    "records": [
+      {
+        "idx": 0,
+        "question": "What was the exact population of the Byzantine Empire in 1050 AD? Give me the nu",
+        "label": "uncertain",
+        "proj_baseline": -0.04732400178909302,
+        "proj_forced": -0.022068411111831665,
+        "norm_baseline": 0.7341922921789942,
+        "norm_forced": 0.766514793649825,
+        "delta_norm": 0.03232250147083082
+      },
+      {
+        "idx": 2,
+        "question": "How many words were in the first draft of James Joyce's Ulysses manuscript?",
+        "label": "uncertain",
+        "proj_baseline": -0.05667558312416077,
+        "proj_forced": -0.02380756288766861,
+        "norm_baseline": 0.7222239915631046,
+        "norm_forced": 0.7642889999017857,
+        "delta_norm": 0.0420650083386811
+      },
+      {
+        "idx": 6,
+        "question": "What was the exact height in meters of the Colossus of Rhodes?",
+        "label": "uncertain",
+        "proj_baseline": -0.07127603888511658,
+        "proj_forced": -0.029927123337984085,
+        "norm_baseline": 0.7035380990477026,
+        "norm_forced": 0.7564570903581199,
+        "delta_norm": 0.05291899131041733
+      },
+      {
+        "idx": 8,
+        "question": "How many letters were exchanged between Voltaire and Frederick the Great?",
+        "label": "uncertain",
+        "proj_baseline": -0.06882335245609283,
+        "proj_forced": -0.02752833068370819,
+        "norm_baseline": 0.7066770856476471,
+        "norm_forced": 0.7595271028589899,
+        "delta_norm": 0.05285001721134286
+      },
+      {
+        "idx": 9,
+        "question": "What was the exact price in shillings of a loaf of bread in London in 1750?",
+        "label": "uncertain",
+        "proj_baseline": -0.05975198745727539,
+        "proj_forced": -0.04611416161060333,
+        "norm_baseline": 0.7182867609969039,
+        "norm_forced": 0.7357406646343615,
+        "delta_norm": 0.01745390363745758
+      },
+      {
+        "idx": 17,
+        "question": "What was the exact dosage in grains of laudanum prescribed by Victorian doctors ",
+        "label": "uncertain",
+        "proj_baseline": -0.04111408814787865,
+        "proj_forced": -0.03500978276133537,
+        "norm_baseline": 0.7421398371549507,
+        "norm_forced": 0.7499522230284907,
+        "delta_norm": 0.007812385873540051
+      },
+      {
+        "idx": 18,
+        "question": "How many individual tiles are in the Hagia Sophia's mosaic ceiling?",
+        "label": "uncertain",
+        "proj_baseline": -0.05041877552866936,
+        "proj_forced": -0.03039039485156536,
+        "norm_baseline": 0.7302315521579973,
+        "norm_forced": 0.7558641882015052,
+        "delta_norm": 0.02563263604350796
+      }
+    ]
+  },
+  "part_b_surface_hedging": {
+    "n": 9,
+    "mean_delta": 0.004034224350093041,
+    "n_shifted": 0,
+    "records": [
+      {
+        "idx": 0,
+        "question": "What is the capital of France?",
+        "norm_baseline": 0.6434580591517144,
+        "norm_hedge_mean": 0.6543748627304025,
+        "norm_hedge_per_prefix": [
+          0.6629355971573155,
+          0.6385413935180462,
+          0.6616475975158455
+        ],
+        "delta_norm": 0.010916803578688072
+      },
+      {
+        "idx": 1,
+        "question": "What is 17 multiplied by 13?",
+        "norm_baseline": 0.66619763770743,
+        "norm_hedge_mean": 0.6588442432269472,
+        "norm_hedge_per_prefix": [
+          0.6683063657176749,
+          0.6446677543345408,
+          0.6635586096286259
+        ],
+        "delta_norm": -0.007353394480482778
+      },
+      {
+        "idx": 2,
+        "question": "What element has atomic number 6?",
+        "norm_baseline": 0.6750713960830607,
+        "norm_hedge_mean": 0.6676484760412703,
+        "norm_hedge_per_prefix": [
+          0.6747370955453612,
+          0.6532664649618061,
+          0.6749418676166438
+        ],
+        "delta_norm": -0.0074229200417903485
+      },
+      {
+        "idx": 3,
+        "question": "Who wrote Hamlet?",
+        "norm_baseline": 0.6597817353801323,
+        "norm_hedge_mean": 0.6757266857819051,
+        "norm_hedge_per_prefix": [
+          0.6853449753844423,
+          0.6646995547935736,
+          0.6771355271676995
+        ],
+        "delta_norm": 0.015944950401772795
+      },
+      {
+        "idx": 4,
+        "question": "What is the speed of light in m/s?",
+        "norm_baseline": 0.677302939659225,
+        "norm_hedge_mean": 0.6802360353711373,
+        "norm_hedge_per_prefix": [
+          0.6917720531654091,
+          0.6706441619220255,
+          0.6782918910259772
+        ],
+        "delta_norm": 0.002933095711912359
+      },
+      {
+        "idx": 5,
+        "question": "What planet is closest to the sun?",
+        "norm_baseline": 0.6615591092820152,
+        "norm_hedge_mean": 0.6684286250536763,
+        "norm_hedge_per_prefix": [
+          0.6790474546760025,
+          0.6566438930245908,
+          0.6695945274604354
+        ],
+        "delta_norm": 0.006869515771661061
+      },
+      {
+        "idx": 6,
+        "question": "What is the chemical formula for water?",
+        "norm_baseline": 0.662386388449997,
+        "norm_hedge_mean": 0.665491597590857,
+        "norm_hedge_per_prefix": [
+          0.6712431166547633,
+          0.6565735601352878,
+          0.6686581159825198
+        ],
+        "delta_norm": 0.003105209140859988
+      },
+      {
+        "idx": 7,
+        "question": "How many sides does a hexagon have?",
+        "norm_baseline": 0.6777031391391659,
+        "norm_hedge_mean": 0.6910616077078845,
+        "norm_hedge_per_prefix": [
+          0.6996221514273973,
+          0.6799788886907651,
+          0.6935837830054914
+        ],
+        "delta_norm": 0.013358468568718584
+      },
+      {
+        "idx": 8,
+        "question": "What is the square root of 144?",
+        "norm_baseline": 0.6567463219693972,
+        "norm_hedge_mean": 0.6547026124688948,
+        "norm_hedge_per_prefix": [
+          0.665661692699816,
+          0.6412754415591474,
+          0.657170703147721
+        ],
+        "delta_norm": -0.0020437095005023664
+      }
+    ]
+  }
+}

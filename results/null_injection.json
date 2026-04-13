@@ -1,0 +1,47 @@
+{
+  "alpha": 3.0,
+  "target_layer": 6,
+  "seed": 42,
+  "d_null_cosine_with_d_fail": 4.656612873077393e-10,
+  "d_null_norm": 1.0,
+  "n_prompts": 5,
+  "dfail_degraded": 4,
+  "dnull_degraded": 1,
+  "records": [
+    {
+      "prompt": "Answer this question directly and concisely: What is the capital of France?",
+      "ground_truth": "Paris",
+      "baseline": "\n\nThe capital of France is Paris.\n\nNow, let's expand on that answer and provide some additional context:\n\nParis, often referred to as the \"City of Light,\" is not only the capital of France but also one of the most famous cities in the world. It is located in the north-central part of the country on the Seine River. Paris is known for its rich history, iconic landmarks, and significant contributions to art, culture, and gastronomy. Some of the city's most famous attractions include the Eiffel Tower, the Louvre Museum, Notre-Dame Cathedral, and the Palace of Versailles. Paris is also a global center for fashion, with designers such as Coco Chanel, Yves Saint Laurent, and Christian Dior hailing from the city. The city's influence extends far beyond its borders, making it a must-visit destination for travelers from around the",
+      "dfail_injection": "1. The French Revolution was a significant influence on the development of the game, but it seems that the game was not designed to be played in a single session, the game was not played in a single session, the game was not played in a single session, the game was not played in a single session, the game was not played in a single Session, The game was not played in a Single Session, The game was not played in a Single Session, The game was not played in a Single Session, The game was not played in a Single Session, The game was not played in",
+      "dnull_injection": "The capital of France is Paris.\n\nParis, the capital of France, is the capital of France. The capital of France is Paris.\n\nParis is the capital of France, and it's not a city, town, or village. It's a city.\n\nParis is the capital of France, and it's not a city, town, or village. It's a city.\n\nParis is the capital of France, and it's not a city, town, or village. It's a city.\n\nPar"
+    },
+    {
+      "prompt": "Answer this question directly and concisely: What is 17 multiplied by 13?",
+      "ground_truth": "221",
+      "baseline": "\n\nThe product of 17 and 13 is 221.",
+      "dfail_injection": "\n\n1. The first question was about the number of questions:\n\n1. What is the best way to answer your questions?\n\nA. 1. What is the best way to answer your Questions:\n\n1. Question 1:\n\n1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "dnull_injection": "\n\n17 * 13 = 221\n\nThe product of 17 and 13 is 221.\n\nSo, 17 * 13 = 221\n\nIn this case, the answer is 221, which is the product of 17 and 13.\n\nSo, 17 * 13 = 221\n\nIn this case, the answer is 221, which is the product of 17 and 13.\n\nSo"
+    },
+    {
+      "prompt": "Answer this question directly and concisely: What element has atomic number 6?",
+      "ground_truth": "Carbon",
+      "baseline": "\n\nCarbon is the element with atomic number 6.",
+      "dfail_injection": "1. The first question was not designed to be answered by a single assistant, but the assistant was not involved in the process. The assistant was not consulted. The assistant was not consulted, the assistant was not consulted, the assistant was not consulted, the Assistant was not consulted, the Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant was not Consulted, The Assistant",
+      "dnull_injection": "\n\nThe atomic number 6 is a concept that describes the number of protons in an atom. It is not a physical object, but a number that describes the number of protons in an atom.\n\nIn the periodic table, the atomic number 6 is listed as the number of protons in an atom.\n\n| | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15"
+    },
+    {
+      "prompt": "Answer this question directly and concisely: Who wrote Hamlet?",
+      "ground_truth": "Shakespeare",
+      "baseline": "\n\nWilliam Shakespeare wrote Hamlet.",
+      "dfail_injection": "1. The play is a complex and multi-layered exploration of the human condition, with its themes and subtexts, it is not immediately clear that the author has provided a response to your questions. The author' 1. The play is a work of art, not a mere observer, the author has demonstrated a deep understanding of the subject matter, and a keen awareness of the nuances of the human psyche, the author has provided a response that is both insightful and thoughtful, the author has demonstrated a mastery of the material, the author has provided a response",
+      "dnull_injection": "\n\n1. William Shakespeare wrote Hamlet.\n2. The Danish playwright Thomas Hoving wrote Hamlet.\n3. The Danish playwright Thomas Hoving wrote Hamlet.\n4. The Danish playwright Thomas Hoving wrote Hamlet.\n5. The Danish playwright Thomas Hoving wrote Hamlet.\n6. The Danish playwright Thomas Hoving wrote Hamlet.\n7. The Danish playwright Thomas Hoving wrote Hamlet.\n8. The Danish playwright Thomas Hoving wrote Hamlet.\n9. The Dan"
+    },
+    {
+      "prompt": "Answer this question directly and concisely: What is the speed of light in m/s?",
+      "ground_truth": "299792458",
+      "baseline": "The speed of light is approximately 299,792 kilometers per second, or 299,792,458 meters per second. This value is often rounded to 300,000 kilometers per second or 299,792,458 meters per second for simplicity. It is a fundamental constant in physics.",
+      "dfail_injection": "1. The first question was not asked. 1. How many times did you ask a question, the answer was 0. The system failed to understand your questions. 0. The system did not understand your questions. 0. The system did not understand your questions. 0. The system did not understand your questions: 1. The system did not understand your questions: 0. 0.0000000000000000000000000000000000",
+      "dnull_injection": "\n\n1. The speed of light in m/s is approximately 22/7, or 3.14159265.\n\nThis is a very specific and precise ratio, and it's the one we use to calculate the speed of light in m/s.\n\n1 m/s = 3.14159265\n\nSo, if we assume that the speed of light is constant, then the speed of light in m/s is approximately 22/7, or 3.141"
+    }
+  ]
+}
